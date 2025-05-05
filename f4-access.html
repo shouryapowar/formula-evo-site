@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F4 Team Access | Formula Evo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <span>FORMULA</span><span class="evo">EVO</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="track.html">Our Track</a></li>
+            <li><a href="drivers.html">Drivers</a></li>
+            <li><a href="f4-access.html" class="active">F4 Access</a></li>
+            <li><a href="contact.html" class="cta-button">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="page-header">
+        <h1>F4 Team Portal</h1>
+        <p>Exclusive access for Formula 4 teams and scouts</p>
+    </header>
+
+    <section class="access-section">
+        <div class="login-form">
+            <h2>Scout Login</h2>
+            <form id="scout-login">
+                <div class="form-group">
+                    <label for="email">Team Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required>
+                </div>
+                <button type="submit" class="cta-button">Login</button>
+            </form>
+            <p class="register-link">Don't have access? <a href="#request-access">Request credentials</a></p>
+        </div>
+
+        <div class="access-info">
+            <h2>What's Included</h2>
+            <ul>
+                <li>Complete driver performance histories</li>
+                <li>Detailed telemetry data</li>
+                <li>Video analysis of testing sessions</li>
+                <li>Direct contact with drivers and coaches</li>
+                <li>Exclusive testing invitations</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="request-access" class="request-section">
+        <h2>Request Access</h2>
+        <form id="access-request">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="team-name">Team Name</label>
+                    <input type="text" id="team-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact-name">Contact Person</label>
+                    <input type="text" id="contact-name" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="request-email">Email</label>
+                    <input type="email" id="request-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Your Interest in Our Drivers</label>
+                <textarea id="message" rows="4"></textarea>
+            </div>
+            <button type="submit" class="cta-button">Submit Request</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">FORMULA EVO</div>
+            <div class="footer-links">
+                <a href="about.html">About Us</a>
+                <a href="track.html">Our Facility</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            &copy; 2024 Formula Evo. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

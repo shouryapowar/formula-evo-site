@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Formula Evo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <span>FORMULA</span><span class="evo">EVO</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="track.html">Our Track</a></li>
+            <li><a href="drivers.html">Drivers</a></li>
+            <li><a href="f4-access.html">F4 Access</a></li>
+            <li><a href="contact.html" class="active cta-button">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="page-header">
+        <h1>Get In Touch</h1>
+        <p>Contact our team for driver inquiries or general questions</p>
+    </header>
+
+    <section class="contact-section">
+        <div class="contact-form-container">
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <select id="subject" required>
+                        <option value="" disabled selected>Select an option</option>
+                        <option value="driver-program">Driver Program Inquiry</option>
+                        <option value="scouting">Scouting Information</option>
+                        <option value="partnership">Partnership Opportunities</option>
+                        <option value="general">General Question</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <div class="info-card">
+                <h3>Email</h3>
+                <p>info@formula-evo.co.uk</p>
+            </div>
+            <div class="info-card">
+                <h3>Phone</h3>
+                <p>+44 20 1234 5678</p>
+            </div>
+            <div class="info-card">
+                <h3>Track Address</h3>
+                <p>Formula Evo Training Centre<br>
+                Racing Park Road<br>
+                Silverstone Circuit Area<br>
+                Northamptonshire, UK</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="visit-section">
+        <h2>Visit Our Facility</h2>
+        <div class="map-container">
+            <!-- Replace with actual Google Maps embed -->
+            <div class="map-placeholder"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">FORMULA EVO</div>
+            <div class="footer-links">
+                <a href="about.html">About Us</a>
+                <a href="track.html">Our Facility</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            &copy; 2024 Formula Evo. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
